@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Кэш предсказаний (временные файлы)
+.predictions_cache/
+
+# Сгенерированные результаты (можно получить через test.py)
+test_predictions.csv
+submission.csv
+
+# Архивы и временные папки
+*.7z
+*.zip
+temp/
+
+# IDE
+.vscode/
+.idea/
+.cursor/
